@@ -1,4 +1,4 @@
 # nvim
 
-Testing my Nvim config
+My nvim config for mac
 
