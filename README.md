@@ -1,9 +1,3 @@
-# Nvim
+# NVIM
 
-My nvim config for mac
-
-## Colorscheme
-
-Catppuccin
-
-## Plugins
+My config for mac
