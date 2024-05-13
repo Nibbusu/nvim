@@ -21,12 +21,12 @@ return {
         timeout_ms = 500,
       }
     })
-    vim.keymap.set({ "n", "v", "<leader>ft", function()
+    vim.keymap.set({ "n", "v" }, "<leader>ft", function()
       conform.format({
         lsp_fallback = true,
         async = false,
         timeout_ms = 500,
       })
-    end, { "Format file or range in visual" } })
+    end, { desc = "Format file or range in visual" })
   end
 }
