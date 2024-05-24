@@ -29,8 +29,6 @@ return {
       ensure_installed = {
         "html",
         "cssls",
-        "tailwindcss",
-        "svelte",
         "lua_ls",
       },
       -- auto-install configured servers (with lspconfig)
@@ -41,9 +39,6 @@ return {
       ensure_installed = {
         "prettier", -- prettier formatter
         "stylua",   -- lua formatter
-        "isort",    -- python formatter
-        "black",    -- python formatter
-        "pylint",   -- python linter
         "eslint_d", -- js linter
       },
     })
