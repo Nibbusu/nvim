@@ -9,8 +9,9 @@ return {
           enable = true,
         },
         shortcut = {
-          { desc = '󰊳 Update', group = '@property', action = 'Lazy update', key = 'u' } }
-      }
+          { desc = '󰊳 Update', group = '@property', action = 'Lazy update', key = 'u' } },
+        footer = { 'The more you know, the less you need.' }
+      },
     }
   end,
   dependencies = { { 'nvim-tree/nvim-web-devicons' } }
