@@ -82,14 +82,14 @@ return {
       on_attach = on_attach,
     })
 
-    -- configure css server
-    lspconfig["cssls"].setup({
+    -- configure typescript server with plugin
+    lspconfig["jsonls"].setup({
       capabilities = capabilities,
       on_attach = on_attach,
     })
 
-    -- configure tailwindcss server
-    lspconfig["tailwindcss"].setup({
+    -- configure css server
+    lspconfig["cssls"].setup({
       capabilities = capabilities,
       on_attach = on_attach,
     })
@@ -103,6 +103,18 @@ return {
 
     -- configure python server
     lspconfig["pyright"].setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+    })
+
+    -- configure python server
+    lspconfig["pylsp"].setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+    })
+
+    -- configure python server
+    lspconfig["ltex"].setup({
       capabilities = capabilities,
       on_attach = on_attach,
     })
