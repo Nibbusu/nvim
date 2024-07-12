@@ -9,7 +9,7 @@ return {
           enable = true,
         },
         shortcut = {
-          { desc = '󰊳 Update', group = '@property', action = 'Lazy update', key = 'u' } },
+          { desc = '󰊳 Update', group = '@property', action = 'Lazy update', key = 'u' }, { desc = '󰰐 Mason', group = '@property', action = 'Mason', key = 'm' } },
         footer = { 'The more you know, the less you need.' }
       },
     }
