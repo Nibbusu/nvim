@@ -1,6 +1,7 @@
 -- set leader key to space
 vim.g.mapleader = " "
 
-local keymap = vim.keymap -- for conciseness
+local keymap = vim.keymap
 
-vim.keymap.set('n', '<C-k>', ':VimwikiToggleListItem<CR>')
+keymap.set('n', '<C-k>', ':VimwikiToggleListItem<CR>')
+keymap.set('v', '<C-k>', ':VimwikiToggleListItem<CR>')
