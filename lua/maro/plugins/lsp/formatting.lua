@@ -13,7 +13,7 @@ return {
         html = { "prettier" },
         json = { "prettier" },
         lua = { "stylelua" },
-        go = { "prettier" },
+        go = { "gofumpt" },
         markdown = { "prettier" },
       },
       format_on_save = {
