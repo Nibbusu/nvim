@@ -113,11 +113,22 @@ return {
       on_attach = on_attach,
     })
 
-    -- configure python server
+    -- configure ltex server
     lspconfig["ltex"].setup({
       capabilities = capabilities,
       on_attach = on_attach,
       filetypes = { "tex" },
+    })
+
+    -- configure go server
+    lspconfig["gopls"].setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+    })
+
+    lspconfig["golangci-lint-langserver"].setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
     })
 
     -- configure lua server (with special settings)
