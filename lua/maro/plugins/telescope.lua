@@ -12,7 +12,8 @@ return {
 
     telescope.setup({
       defaults = {
-        borderchars = { '─', '│', '─', '│', '┌', '┐', '┘', '└' },
+        --borderchars = { '─', '│', '─', '│', '┌', '┐', '┘', '└' },
+        borderchars = { '═', '║', '═', '║', '╔', '╗', '╝', '╚' },
         path_display = { "truncate " },
         mappings = {
           i = {
