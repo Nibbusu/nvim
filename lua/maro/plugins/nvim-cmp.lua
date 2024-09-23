@@ -32,7 +32,7 @@ return {
       -- Window setup
       window = {
         completion = {
-          border = "double"
+          border = "double",
         },
         documentation = {
           border = "double"
