@@ -15,6 +15,7 @@ return {
         lua = { "stylelua" },
         go = { "gofumpt" },
         markdown = { "prettier" },
+        python = { "prettier" },
       },
       format_on_save = {
         lsp_fallback = true,
